@@ -61,5 +61,5 @@ $ npm start
 👤 **Selin Yılmaz**
 
 We are only 2 people in the group. Instead of a specific task sharing, after deciding on the content of the project and the pages it will contain, we completed the whole project together by meeting face-to-face or zoom from a single computer. But we can classify project members and responsibilities as follows:
-M.Hakan Karaduman: Implemented Sell Yours! and Estates pages. Modified components styles to be responsive.
-Selin Yılmaz: Implemented home page, created navbar and implemented some styles.
+> M.Hakan Karaduman: Implemented Sell Yours! and Estates pages. Modified components styles to be responsive.
+> Selin Yılmaz: Implemented home page, created navbar and implemented some styles.
