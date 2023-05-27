@@ -12,6 +12,9 @@ HTML (HyperText Markup Language) is the most basic building block of the Web. It
 ![CSS3](https://img.shields.io/badge/-CSS3-blue?style=flat&logo=css3)
 The use of CSS improves user experience and makes a website's front end stand out. For styling the project, we have used it.
 
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+Node.js is a powerful JavaScript runtime environment that allows developers to run JavaScript on the server side. Its event-driven, non-blocking I/O model makes it highly efficient for handling concurrent requests, enabling faster and scalable web applications with improved performance and resource utilization.
+
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-blue?style=flat&logo=bootstrap)
 It is easy to set up and learn, has a large number of components, a good grid system, styling for many HTML elements, from buttons to typography, and support for JavaScript plugins, increasing its flexibility. It helped us create a responsive layout for our 'Selling Properties' project.
 
