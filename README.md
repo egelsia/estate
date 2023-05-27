@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center"> FSBO: For Sale By The Owner 👋</h1>
+<h2 align="center"> Your Favourite Website! </h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## _Your Favourite Website to Sell Your Properties!_
 
-## Available Scripts
+Every time you visit the page, it will redirect you to the homepage, where a random property will greet you. If you click on the Estates tab, it will redirect you to the page where all the properties are served. If you click on the Sell Yours! tab, you will go to the page where you can create a new selling post and POST backend service (Requests can be seen in console). There are validations for form inputs you must add the image url in order to create a new selling post. Also "delete" requests are sending to the backend service. 
 
-In the project directory, you can run:
+## Technologies ⚡
 
-### `npm start`
+![HTML5](https://img.shields.io/badge/-HTML5-blue?style=flat&logo=html5&logoColor=white)
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![CSS3](https://img.shields.io/badge/-CSS3-blue?style=flat&logo=css3)
+CSS makes the front-end of a website shine and it creates a great user experience. We have used it for styling the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-blue?style=flat&logo=bootstrap)
+It is easy to set up and master, it has a lot of components, a good grid system, styling for many HTML elements ranging from typography to buttons, as well as support of JavaScript plugins, making it even more flexible. We have used it in order to build our Blog Posts project with a responsive layout.
 
-### `npm test`
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
+We have used JS in order to add dynamic behavior to the Estate Advertisements and add special effects to the webpage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React](https://img.shields.io/badge/-React-darkblue?style=flat&logo=react)
+React allows us to create large web applications that can change data, without reloading the page as a single page application.
 
-### `npm run build`
+![React-Router-Dom](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
+We have used React Router Dom to build our project that have many pages or components but the page is never refreshed instead the content is dynamically fetched based on the URL. This process is called Routing and it is made possible with the help of React Router Dom. In this way, we can navigate between the links in the navbar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Axios**: Axios is a Javascript library used to make HTTP requests from node. JS or XMLHttpRequests from the browser and it supports the Promise API that is native to JS ES6. It can be used intercept HTTP requests and responses and enables client-side protection against XSRF. It also has the ability to cancel requests. We have used Axios for cleaner and easy to manage API calls.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Font Montserrat:** Icons are important to web projects because they are a visual way to help add meaning to elements. Montserrat allowed us for an easy addition to our project, saving valuable time because we did not need to create and save these graphics ourselves.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Navigate through the navigation links.
+- Click the "Home" Navbar link in order to read a random estate.
+- Click the "Estates" Navbar link in order to see all estates.
+- Click the "Delete" button in order to send delete request to the API.
+- Visit "Sell Yours!" Navbar Link in order to create your selling advertisement.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Clone the repository to your local machine
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ git clone https://github.com/egelsia/estate.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> cd into the directory, **install dependencies** and start server.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+$ cd estate
+$ npm install
+$ npm start
+```
 
-## Learn More
+> Open `http://localhost:3000` using your favourite browser, if it doesn't open automatically.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Mehmet Hakan Karaduman**
+👤 **Selin Yılmaz**
