@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: black;
+  font-family: "Lora";
+  font-weight: 900;
+  background-color: #FFE800;
+
+}
+#root > div > div:nth-child(1) > nav > div > div > ul {
+  border-bottom: none;
+  margin-left: auto;
+  align-self: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+#root > div > div:nth-child(1) > nav > div > div > ul a:hover {
+  color: #363112;
+  background-color:rgba(54, 49, 18, 0.09);
+  background-blend-mode: lighten;
+  border-radius: 5px;
+}
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.estate-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.estate-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.estate-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.estate-preview a{
+  text-decoration: none;
+}
+
+/* estate details page */
+.estate-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.estate-details div {
+  margin: 20px 0;
+}
+.estate-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new estate form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+article  img {
+  width: 100%;
+}
+
+article h2 {
+  font-weight: 700;  
+}
