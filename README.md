@@ -2,7 +2,7 @@
 
 ## _Your Favourite Website to Sell Your Properties!_
 
-It will direct you to the homepage each time you visit the page, where a different property will welcome you. The page where all the properties are served will be redirected to if you click on the Estates tab. You can create a new selling post and POST backend service (Requests can be seen in the console) by clicking the Sell Yours! tab on the menu bar. When creating a new selling post, you must add the image url because there are validations for form inputs. Additionally, requests to "delete" are sent to the backend service.
+It will direct you to the homepage each time you visit the page, where a different property will welcome you. The page where all the properties are served will be redirected to if you click on the Estates tab. You can create a new selling post and POST backend service (Requests can be seen in the console) by clicking the Sell Yours! tab on the menu bar. When creating a new selling post, you must add the image url because there are validations for form inputs. Additionally, requests to "delete" are sent to the backend service. We used https://my-json-server.typicode.com/ website for maintaining the db.json file and fetching the data.
 
 ## Technologies ⚡
 
